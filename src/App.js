@@ -67,7 +67,7 @@ function App() {
   useEffect(() => {
     if (usersbranch) {
       axios
-        .get(`https://durgamenu.onrender.com/menu/${usersbranch}`)
+        .get(`https://durgamenu.onrender.com/menu/${usersbranch}/`)
         .then((response) => {
           setMenuData(response.data);
         })
