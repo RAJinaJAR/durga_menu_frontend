@@ -143,7 +143,7 @@ function App() {
                     desc={item.desc}
                     price={item.price}
                     toppingPrice={item.topping_price}
-                    image={`https://durgamenu.onrender.com/media/${item.image}`}
+                    image={`https://onkgaqmrpdjnqcgesfvl.supabase.co/storage/v1/object/public/images/${item.image}`}
                   />
                 ))}
               </div>
