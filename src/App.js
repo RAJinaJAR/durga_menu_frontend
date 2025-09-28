@@ -38,17 +38,17 @@ function App() {
   // Custom order for categories
   const categoryOrder = [
     "Cold Coffee",
-    "Misal Pav",
+    "Sandwich",
     "Bhurji",
     "Pav Bhaji",
     "Dosa",
     "Quick Bites",
-    "Mastani",
+    "Misal Pav",
+    "Breakfast",
     "Snacks",
+    "Mastani",
     "Shakes",
     "Ice Cream",
-    "Breakfast",
-    "Sandwich",
     "Pizza",
     "Cold Drink",
   ];
